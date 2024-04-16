@@ -26,15 +26,6 @@ class BookLoanRepositoryTest {
     @Autowired
     private BookLoanRepository bookLoanRepository;
 
-    @Autowired
-    private BookRepository bookRepository;
-
-    @Autowired
-    private AppUserRepository appUserRepository;
-
-    @Autowired
-    private AuthorRepository authorRepository;
-
     @Test
     @Transactional
     public void testFindByBorrowerId() {
