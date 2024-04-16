@@ -1,0 +1,3 @@
+com\lexicon\springws\repository\BookRepositoryTest.class
+com\lexicon\springws\dao\AuthorDaoTest.class
+com\lexicon\springws\repository\BookLoanRepositoryTest.class

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.lexicon.springws.dao.AuthorDaoTest
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.595 s -- in com.lexicon.springws.dao.AuthorDaoTest

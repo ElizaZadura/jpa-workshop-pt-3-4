@@ -1,0 +1,11 @@
+com\lexicon\springws\dao\AuthorDao.class
+com\lexicon\springws\entity\Book.class
+com\lexicon\springws\SpringWsApplication.class
+com\lexicon\springws\dao\AuthorDaoImpl.class
+com\lexicon\springws\repository\BookLoanRepository.class
+com\lexicon\springws\repository\BookRepository.class
+com\lexicon\springws\entity\AppUser.class
+com\lexicon\springws\repository\AppUserRepository.class
+com\lexicon\springws\entity\BookLoan.class
+com\lexicon\springws\entity\Author.class
+com\lexicon\springws\repository\AuthorRepository.class
