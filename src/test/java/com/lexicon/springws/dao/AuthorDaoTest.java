@@ -36,7 +36,7 @@ public class AuthorDaoTest {
         entityManager.flush();
 
         // Find the author by ID
-        Author foundAuthor = authorDao.findById(author.getAuthorId());
+        Author foundAuthor = authorDao.findById(author.getId());
 
         // Assertions
         assertNotNull(foundAuthor);
@@ -92,7 +92,7 @@ public class AuthorDaoTest {
         authorDao.delete(author);
 
         // Try to find the deleted author
-        Author foundAuthor = authorDao.findById(author.getAuthorId());
+        Author foundAuthor = authorDao.findById(author.getId());
 
         // Assertion
         assertNull(foundAuthor);
