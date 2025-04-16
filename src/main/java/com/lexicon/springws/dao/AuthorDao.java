@@ -5,7 +5,7 @@ import java.util.List;
 
 public interface AuthorDao {
     Author save(Author author);
-    Author findById(int id);
+    Author findById(Long id);
     List<Author> findAll();
     Author update(Author author);
     void delete(Author author);

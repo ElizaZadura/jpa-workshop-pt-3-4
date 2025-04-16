@@ -23,7 +23,7 @@ public class AuthorDaoImpl implements AuthorDao {
     }
 
     @Override
-    public Author findById(int id) {
+    public Author findById(Long id) {
         return entityManager.find(Author.class, id);
     }
 
