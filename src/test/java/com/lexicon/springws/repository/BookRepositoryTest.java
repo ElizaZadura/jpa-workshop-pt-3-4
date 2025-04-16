@@ -26,9 +26,6 @@ public class BookRepositoryTest {
     @Autowired
     private BookRepository bookRepository;
 
-    @Autowired
-    private AuthorRepository authorRepository;
-
     @Test
     @Transactional
     public void testFindByIsbnIgnoreCase() {
